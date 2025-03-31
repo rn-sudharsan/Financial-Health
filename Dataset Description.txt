@@ -1,0 +1,71 @@
+**Dataset Description**
+
+The dataset used in this project consists of various financial metrics collected from multiple companies. These metrics are essential for analyzing the financial health and predicting the likelihood of financial instability. Below is a detailed description of each feature in the dataset:
+
+Days Sales Outstanding (DSO):
+
+Description: Measures the average number of days it takes for a company to collect payment after a sale has been made.
+Type: Continuous
+Importance: Indicates the efficiency of a company's credit and collection efforts.
+Return on Assets (ROA):
+
+Description: Indicates how profitable a company is relative to its total assets. It is calculated as Net Income divided by Total Assets.
+Type: Continuous
+Importance: Measures how effectively a company is using its assets to generate earnings.
+Financial Expenses / Sales:
+
+Description: The ratio of financial expenses to total sales. It indicates the proportion of sales consumed by financial costs.
+Type: Continuous
+Importance: Helps in understanding the impact of financial expenses on a company's profitability.
+Quick Ratio:
+
+Description: Measures a company's ability to meet its short-term obligations with its most liquid assets. It is calculated as (Current Assets - Inventory) / Current Liabilities.
+Type: Continuous
+Importance: A higher Quick Ratio indicates better liquidity and financial health.
+Receivables Turnover:
+
+Description: Measures how efficiently a company collects its receivables. It is calculated as Net Credit Sales divided by Average Accounts Receivable.
+Type: Continuous
+Importance: Indicates the effectiveness of the company's credit policies and collection efforts.
+Debt to Assets Ratio:
+
+Description: Measures the proportion of a company's assets that are financed by debt. It is calculated as Total Debt divided by Total Assets.
+Type: Continuous
+Importance: A higher ratio indicates higher financial leverage and risk.
+Inventory Turnover:
+
+Description: Measures how efficiently a company manages its inventory. It is calculated as Cost of Goods Sold divided by Average Inventory.
+Type: Continuous
+Importance: Indicates the rate at which a company sells and replaces its inventory.
+Logarithm of Employees:
+
+Description: The natural logarithm of the number of employees in the company.
+Type: Continuous
+Importance: Used to normalize the number of employees and reduce skewness.
+Export Indicator:
+
+Description: A binary indicator that signifies whether the company is involved in export activities (1 for yes, 0 for no).
+Type: Categorical
+Importance: Helps in understanding the company's involvement in international trade.
+Import Indicator:
+
+Description: A binary indicator that signifies whether the company is involved in import activities (1 for yes, 0 for no).
+Type: Categorical
+Importance: Helps in understanding the company's dependence on imported goods.
+Representative Indicator:
+
+Description: A binary indicator that signifies whether the company has representative offices or agencies (1 for yes, 0 for no).
+Type: Categorical
+Importance: Indicates the company's presence and reach.
+Inconsistency Indicator (Target Variable):
+
+Description: A binary indicator that signifies whether the company has shown financial inconsistency (1 for yes, 0 for no).
+Type: Categorical
+Importance: The target variable for the predictive model, indicating financial health status.
+Year:
+
+Description: The year in which the financial data was recorded.
+Type: Categorical
+Importance: Helps in understanding the temporal aspect of the data and analyzing trends over time.
+Summary
+This dataset provides a comprehensive set of financial metrics that are crucial for assessing the financial health of companies. The features include both continuous and categorical variables, capturing various aspects of a company's financial performance, liquidity, efficiency, and leverage. The target variable, Inconsistency Indicator, is used to build a predictive model to forecast financial instability, aiding in proactive financial management and decision-making.
